@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.moviePic{
+    width: 300px;
+    height: 100%;
+    opacity: .9;
+}
+.movieDetail{
+    position: relative;
+    top: 0;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.2em;
+}
